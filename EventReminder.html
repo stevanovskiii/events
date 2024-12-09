@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="EventReminder.css">
+    <script src="EventReminder.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <img src="./assets/logo.png" alt="Logo" class="img-responsive center-block" style="max-width: 100px;">
+            <h2>Events Emitter</h2>
+        </div>
+
+        <div class="row">
+            <div id="allSavedEvents" class="col">
+                <button type="button" class="btn btn-primary btn-block" id="addNewEventButton">Add new event</button>
+                <br>
+                <div class="center-box">
+                    <div id="loginBox" class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Login</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="username" placeholder="Username">
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+                            <button type="button" class="btn btn-success btn-block" id="loginButton">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="addEventBox" class="col-sm-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Add new/edit event</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="date" class="form-control" id="EventDate" placeholder="Enter date">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="time" class="form-control" id="EventTime" placeholder="Event time">
+                            </div>
+                        </div>
+                        <br>
+                        <input class="form-control" id="EventName" placeholder="Event name">
+                        <br>
+                        <textarea class="form-control" rows="3" placeholder="Event description"
+                            id="EventDescription"></textarea>
+                        <br>
+                        <input class="form-control" id="EventPicture" placeholder="Enter picture URL">
+                        <br>
+                        <div class="text-right">
+                            <button id="cancelButton" type="button" class="btn btn-danger">Cancel</button>
+                            <button id="saveButton" type="button" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

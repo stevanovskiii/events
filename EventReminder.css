@@ -1,0 +1,93 @@
+﻿.btn {
+    padding: 10px 20px;
+    margin: 2px;
+    background-color: #007bff;
+    color: #f8f9fa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addNewEventButton{
+    display: none;
+}
+
+.panel-heading{
+    background-color: transparent !important;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.center-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: #88bdf1;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+#addEventBox {
+    width: 500px;
+    padding: 20px;
+    background-color: #17a2b8;
+    border: 2px solid #138496;
+    border-radius: 25px;
+    margin: auto;
+    visibility: hidden;
+    position: absolute;
+}
+
+#loginBox {
+    width: 500px;
+    padding: 20px;
+    background-color: #17a3b810;
+    border-radius: 25px;
+    margin: auto;
+}
+
+#savedEvent {
+    width: 500px;
+    padding: 10px;
+    background-color: #28a745;
+    border: 2px solid #218838;
+    border-radius: 25px;
+}
+
+textarea {
+    resize: vertical;
+    overflow: auto;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#ane {
+    color: #f8f9fa;
+}
+
+.save {
+    text-align: right;
+}
+
+.cancel {
+    text-align: right;
+}
+
+.form-control {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #212529;
+    font-family: Arial, sans-serif;
+}
